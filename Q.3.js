@@ -1,6 +1,14 @@
 function mySetInterval(callback,delay){
+    
     function repeat(){
-        callback();
-        
+        setTimeout(()=>{
+             callback();
+        })
+       
+
     }
+}
+
+function myClearInterval(id){
+
 }
