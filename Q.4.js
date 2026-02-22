@@ -1,0 +1,3 @@
+function runSequential(tasks,delay){
+    
+}
